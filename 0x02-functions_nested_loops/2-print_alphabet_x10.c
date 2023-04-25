@@ -1,18 +1,23 @@
-
-i#include "main.h"
+#include "main.h"
 /**
- * print_alphabet -> for print lowercase alphabet
+ * print_alphabet_x10 -> for print lowercase alphabet 10 times
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char Start;
+	int i;
 
-	Start = 'a';
-	while (Start <= 'z')
+	i = 0;
+	while (i < 10)
 	{
-		_putchar(Start);
-		Start++;
+		Start = 'a';
+		while (Start <= 'z')
+		{
+			_putchar(Start);
+			Start++;
+		}
+		_putchar('\n');
+		i++;
 	}
-	_putchar('\n');
 }
