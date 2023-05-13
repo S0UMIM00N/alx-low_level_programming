@@ -1,22 +1,16 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * main - program that prints its name
- * Owned By soumimoon
- * @argv: argument
- * @argc: argument count
- * Return: 0
+ * main - prints the name of the program
+ * @argc: number of arguments
+ * @argv: array of arguments
+ *
+ * Return: Always 0 (Success)
  */
-
-int	main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	int i = 0;
+	printf("%s\n", *argv);
 
-	while (argv[0][i] != '\0' && argc)
-	{
-		_putchar(argv[0][i]);
-		++i;
-	}
-	_putchar('\n');
 	return (0);
 }
