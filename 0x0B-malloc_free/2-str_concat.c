@@ -1,8 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - Program thats concatenates two strings.
- * owned By MoOka
+ * str_concat - Program thats concatenates two strings
  * @s1: first string
  * @s2: second string
  * Return: pointer of an array of chars

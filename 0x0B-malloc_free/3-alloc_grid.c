@@ -3,7 +3,6 @@
 
 /**
  * alloc_grid - returns a pointer to a 2 dimensional array of integers.
- * owned by MoOka
  * @width: width
  * @height: height
  *
