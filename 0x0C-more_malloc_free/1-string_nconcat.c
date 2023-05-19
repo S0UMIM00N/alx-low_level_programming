@@ -2,7 +2,7 @@
 #include "main.h"
 /**
  * string_nconcat - function that concatenates 2 strings
- * Owned By MoOka
+ * Owned By soumimoon
  * @s1: string
  * @s2: string
  * @n: bytes
