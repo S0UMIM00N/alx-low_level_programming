@@ -4,7 +4,7 @@
 
 /**
  * print_dog - function that prints a struct dog
- * Owned By soumimoon 
+ * Owned By soumimoon
  * @d: the strust dog to be printed
  */
 

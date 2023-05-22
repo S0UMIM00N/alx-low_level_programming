@@ -23,7 +23,7 @@ int _strlen(char *str)
 
 /**
  * _strcopy - copy a sting
- * Owned By soumimoon 
+ * Owned By soumimoon
  * @src: the source
  * @dest: the Destination
  * Return: the pointer to dest
