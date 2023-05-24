@@ -4,7 +4,7 @@
 /**
  * get_op_func - function that selects the correct function to perform
  * the operation
- * Owned By soumimoon 
+ * Owned By soumimoon
  * @s: operator
  * Return: a pointer to the function
  */
